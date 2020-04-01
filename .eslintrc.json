@@ -1,0 +1,20 @@
+{
+  "extends": ["airbnb", "plugin:prettier/recommended"],
+  "env": {
+    "jest": true,
+    "node": true
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "no-plusplus": ["off"],
+    "no-unused-expressions": ["error", {"allowTernary": true}],
+    "prefer-promise-reject-errors": ["off"],
+    "object-curly-spacing": "off",
+    "arrow-parens": ["error", "always"],
+    "comma-dangle": ["error", "never"],
+    "max-len": ["error", {"code": 150, "ignoreComments": true}],
+    "no-nested-ternary": ["off"],
+    "no-console": ["off"],
+    "no-param-reassign": ["error", {"props": false}]
+  }
+}

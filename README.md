@@ -1,2 +1,2 @@
-# utilitybelt
-General utilities
+# Utility Belt
+Various JavaScript utilities
